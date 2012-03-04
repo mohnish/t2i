@@ -39,18 +39,18 @@
     </header>
     <div id="main" role="main">
 
-      <canvas id="stockGraph" width="150" height="150">  
-        current stock price: $3.15 +0.15  
-      </canvas>  
-
-      <canvas id="clock" width="150" height="150">  
-        <img src="img/startup.png" width="150" height="150" alt=""/>  
-      </canvas>  
-
+      <input id="input-text" type="text" size="50"></input>
+      <button id="create">Create an Image</button>
+      <div>
+        <canvas id="output" width="300" height="150">
+          Sorry, your browser doesn't support the functionality. Upgrade to a modern browser. Thanks for using this tool.
+        </canvas>
+      </div>     
+      <div id="image"></div> 
     </div>
 
     <footer>
-
+      &copy; This is an OpenSource tool bro. Use it at your will.
     </footer>
   </div> <!--! end of #container -->
 
@@ -59,13 +59,6 @@
   <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
   <script src="js/helper.js"></script>
   <script src="js/script.js"></script>
-
-  <script> // Change UA-XXXXX-X to be your site's ID
-    var _gaq=[["_setAccount","UA-XXXXX-X"],["_trackPageview"]];
-    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
-    g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
-    s.parentNode.insertBefore(g,s)}(document,"script"));
-  </script>
 
 </body>
 </html>
