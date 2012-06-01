@@ -13,6 +13,6 @@ $(document).ready(function() {
         context.fillText($('#input-text').val(), 0, 0);
       }
     }
-    $("#image").html('<img src="'+img+'" width="'+ width +'" height="70px" />');
+    $("#output").attr({'src': img, 'width': width});
   });
 });
