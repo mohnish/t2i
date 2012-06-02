@@ -2,7 +2,7 @@
   website: http://mohni.sh
 */
 
-$(function() {
+window.onload = function() {
   var input = document.getElementById('input-text')
     , output = document.getElementById('output-image')
     , notice = document.getElementById('notice')
@@ -12,12 +12,9 @@ $(function() {
   canvasTest = !!(elem.getContext && elem.getContext('2d') && typeof elem.getContext('2d').fillText === 'function');
 
   if(canvasTest) {
-    notice.css
+    //
+  } else {
+    notice.className = '';
   }
 
-});
-
-
-
-
-
+};
