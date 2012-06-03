@@ -20,7 +20,7 @@ window.onload = function() {
     input.addEventListener('input', function(event) {
       context.clearRect(0, 0, 500, 90);
       context.fillText(input.value, 10, 10);
-      imageUrl = canvas.toDataUrl('image/png');
+      imageUrl = canvas.toDataUrl('image/jpeg');
       output.src = imageUrl;
     });
   } else {
