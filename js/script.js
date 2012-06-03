@@ -4,24 +4,20 @@
 
 window.onload = function() {
   var input = document.getElementById('input-text')
-    , output = document.getElementById('output-image')
     , notice = document.getElementById('notice')
-    , elem = document.createElement('canvas')
     , canvas = document.getElementById('display-text')
+    , output = document.getElementById('output-image')
+    , elem = document.createElement('canvas')
     , context = canvas.getContext('2d')
-    , canvasTest = false
     , imageUrl;
 
-
-  canvasTest = !!(elem.getContext && elem.getContext('2d') && typeof elem.getContext('2d').fillText === 'function');
-
-  if(canvasTest) {
+  if( !!(elem.getContext && elem.getContext('2d') && typeof elem.getContext('2d').fillText === 'function') ) {
     // T2I
     input.addEventListener('input', function(event) {
-      context.clearRect(0, 0, 500, 90);
+      context.clearRect(0, 0, canvas.width, canvas.height);
       context.fillText(input.value, 10, 10);
-      imageUrl = canvas.toDataUrl('image/jpeg');
-      output.src = imageUrl;
+      imgUrl = canvas.toDataURL();
+      output.src = imgUrl;
     });
   } else {
     // Display the notice
@@ -29,3 +25,25 @@ window.onload = function() {
   }
 
 };
+
+/*function test() {  
+ var canvas = document.getElementById("canvas");  
+ var url = canvas.toDataURL();  
+   
+ var newImg = document.createElement("img");  
+ newImg.src = url;  
+ document.body.appendChild(newImg);  
+}*/
+
+/*
+canvas.toBlob(function(blob) {  
+    var newImg = document.createElement("img"),  
+        url = URL.createObjectURL(blob);  
+    newImg.onload = function() {  
+        // no longer need to read the blob so it's revoked  
+        URL.revokeObjectURL(url);  
+    };  
+    newImg.src = url;  
+    document.body.appendChild(newImg);  
+ });  
+ */
