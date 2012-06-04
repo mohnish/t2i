@@ -1,10 +1,10 @@
-## Text to Image (T2I) ##
+## Text to Image (t2i) ##
 
 As the title of the app says, it converts text into it's corresponding image.
 
 It's a fun app and let's you create images on the fly.
 
-T2I totally works on the client side (browser) only.
+t2i totally works on the client side (browser) only.
 
 Example use case: You could use t2i to convert your email addresses to images and safely display
 them on your webpages. You don't have to hide from spam bots that way.
