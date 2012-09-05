@@ -1,0 +1,9 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+
+/* TEAM */
+  Software Engineer: Mohnish Thallavajhula
+  Site: http://mohni.sh
+  Twitter: @arrowgunz
+  Location: San Franciso, CA
