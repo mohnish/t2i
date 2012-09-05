@@ -15,7 +15,8 @@ window.onload = function() {
     // T2I
     input.addEventListener('input', function(event) {
       context.clearRect(0, 0, canvas.width, canvas.height);
-      context.fillText(input.value, 10, 10);
+      context.font = "italic 20pt Calibri";
+      context.fillText(input.value, 100, 100);
       imgUrl = canvas.toDataURL();
       output.src = imgUrl;
     });
