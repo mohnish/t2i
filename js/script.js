@@ -26,25 +26,3 @@ window.onload = function() {
   }
 
 };
-
-/*function test() {  
- var canvas = document.getElementById("canvas");  
- var url = canvas.toDataURL();  
-   
- var newImg = document.createElement("img");  
- newImg.src = url;  
- document.body.appendChild(newImg);  
-}*/
-
-/*
-canvas.toBlob(function(blob) {  
-    var newImg = document.createElement("img"),  
-        url = URL.createObjectURL(blob);  
-    newImg.onload = function() {  
-        // no longer need to read the blob so it's revoked  
-        URL.revokeObjectURL(url);  
-    };  
-    newImg.src = url;  
-    document.body.appendChild(newImg);  
- });  
- */
