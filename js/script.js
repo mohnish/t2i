@@ -3,10 +3,10 @@
 */
 
 window.onload = function() {
-  var input = document.getElementById('input-text')
-    , notice = document.getElementById('notice')
-    , canvas = document.getElementById('display-text')
-    , output = document.getElementById('output-image')
+  var input = document.querySelector('#input-text')
+    , notice = document.querySelector('#notice')
+    , canvas = document.querySelector('#display-text')
+    , output = document.querySelector('#output-image')
     , elem = document.createElement('canvas')
     , context = canvas.getContext('2d')
     , imageUrl;
@@ -17,8 +17,7 @@ window.onload = function() {
       context.clearRect(0, 0, canvas.width, canvas.height);
       context.font = "italic 20pt Calibri";
       context.fillText(input.value, 100, 100);
-      imgUrl = canvas.toDataURL();
-      output.src = imgUrl;
+      output.src = canvas.toDataURL();
     });
   } else {
     // Display the notice
