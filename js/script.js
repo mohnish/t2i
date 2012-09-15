@@ -1,7 +1,3 @@
-/* Author: Mohnish Thallavajhula
-  website: http://mohni.sh
-*/
-
 window.onload = function() {
   var input = document.querySelector('#input-text')
     , notice = document.querySelector('#notice')
