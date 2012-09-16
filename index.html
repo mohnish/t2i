@@ -13,15 +13,19 @@
   <header>
 
   </header>
+  <h1 class="title">text to image</h1>
   <div role="main">
 
     <form>
       <div class="input-text">
-        <input type="text" id="input-text" name="input-text" />
+        <div class="enter-your-text">✎ Enter your text</div>
+        <input type="text" id="input-text" name="input-text" autocomplete="off"/>
+        <p>Character counter: <p id="char-counter"></p></p>
       </div>
     </form>
-    <canvas id="display-text" class="hidden" width="500px" height="200px"></canvas>
+    <canvas id="display-text" class="hidden" width="800px" height="200px"></canvas>
     <div class="output-image">
+      <p>Your generated image:</p>
       <img id="output-image" />
     </div>
     <div id="notice" class="hidden">Sorry stranger, your browser doesn't support the functionality of this application. Get a new browser.</div>
