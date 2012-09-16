@@ -5,7 +5,7 @@ audio:not([controls]) { display: none; }
 
 html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 html, button, input, select, textarea { font-family: sans-serif; color: #222; }
-body { margin: 0; font-size: 1em; line-height: 1.4; }
+body { margin: 0; font-size: 1em; line-height: 1.4; background-color: #E0EFF1; color: #680148; }
 
 ::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
 ::selection { background: #fe57a1; color: #fff; text-shadow: none; }
@@ -62,17 +62,29 @@ td { vertical-align: top; }
 
 .chromeframe { margin: 0.2em 0; background: #ccc; color: black; padding: 0.2em 0; }
 
-/* Custom Styles */
-#input-text {
-  border-radius: 6px;
+/* Start Custom Styles */
+
+.title {
   width: 300px;
-  height: 60px;
-  font-size: 40px;
-  border: 1px solid orange;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.enter-your-text {
+  font-size: 25px;
 }
 
 .input-text {
-  margin: 0 auto;
+  width: 800px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+#input-text {
+  border-radius: 6px;
+  height: 60px;
+  font-size: 40px;
+  border: 1px solid #680148;
 }
 
 .output-image {
@@ -82,13 +94,13 @@ td { vertical-align: top; }
 }
 
 #dispay-text {
-  border: 1px solid orange;
+  border: 1px solid #680148;
 }
 
-/* Custom Styles */
+/* End custom styles */
 
 @media only screen and (min-width: 35em) {
-  
+
 
 }
 
@@ -103,13 +115,13 @@ td { vertical-align: top; }
 .clearfix { *zoom: 1; }
 
 @media print {
-  * { background: transparent !important; color: black !important; box-shadow:none !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } 
+  * { background: transparent !important; color: black !important; box-shadow:none !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; }
   a, a:visited { text-decoration: underline; }
   a[href]:after { content: " (" attr(href) ")"; }
   abbr[title]:after { content: " (" attr(title) ")"; }
-  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; } 
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }
   pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
-  thead { display: table-header-group; } 
+  thead { display: table-header-group; }
   tr, img { page-break-inside: avoid; }
   img { max-width: 100% !important; }
   @page { margin: 0.5cm; }

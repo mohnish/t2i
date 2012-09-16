@@ -6,9 +6,6 @@ It's a fun app and let's you create images on the fly.
 
 t2i totally works on the client side (browser) only.
 
-Example use case: You could use t2i to convert your email addresses to images and safely display
-them on your webpages. You don't have to hide from spam bots that way.
-
 
 ## License
 
