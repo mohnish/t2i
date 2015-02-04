@@ -1,17 +1,20 @@
-## Text to Image (t2i)
+# Text to Image (t2i)
 
-As the title of the app says, it converts text into it's corresponding image.
+As the title of the app says, it converts text into it's corresponding image. It's a fun app and let's you create images on the fly. t2i totally works on the client side (browser) only.
 
-It's a fun app and let's you create images on the fly.
+## Features
 
-t2i totally works on the client side (browser) only.
-
+- (TODO) Add text to an image
+- (TODO) Change font size
+- (TODO) Change font family
+- (TODO) Change font color
+- (TODO) Change text background
 
 ## License 
 
 (The MIT License)
 
-Copyright (c) 2012 Mohnish Thallavajhula &lt;i@mohni.sh&gt;
+Copyright (c) 2015 Mohnish Thallavajhula &lt;i@mohni.sh&gt;
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
