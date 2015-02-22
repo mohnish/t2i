@@ -1,5 +1,7 @@
 # Text to Image (t2i)
 
+[![Code Climate](https://codeclimate.com/github/mohnish/t2i/badges/gpa.svg)](https://codeclimate.com/github/mohnish/t2i)
+
 As the title of the app says, it converts text into it's corresponding image. It's a fun app and let's you create images on the fly. t2i totally works on the client side (browser) only.
 
 ## Features
