@@ -3,7 +3,7 @@
 
 
 /* TEAM */
-  Software Engineer: Mohnish Thallavajhula
+  Name: Mohnish Thallavajhula
   Site: http://mohni.sh
   Twitter: @arrowgunz
   Location: San Franciso, CA
